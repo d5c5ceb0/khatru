@@ -74,4 +74,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/nbd-wtf/go-nostr => ../go-nostr
+replace github.com/nbd-wtf/go-nostr => github.com/d5c5ceb0/go-nostr v0.51.6
+
+replace github.com/fiatjaf/eventstore => github.com/d5c5ceb0/eventstore v0.16.5
